@@ -1,10 +1,3 @@
-/** 
- * Determine if you can use the letters and frequencies in the letter
- * string to construct a word
- * Input: 2 strings, words and letters
- * Return: boolean
- */
-
 /*
 find the letters and frequencies in letters
 iterate through the characters in word
@@ -17,8 +10,17 @@ if we exit the loop return true
 // 'aa', 'abc'
 // charFreqs = {a: 1, b: 1}
 
+/**
+ * Determine if you can use the letters and frequencies in the letter
+ * string to construct a word
+ * Input: 2 strings, words and letters
+ * Return: boolean
+ * Time Complexity: O(n)
+ */
 
 function canConstructWord(word, letters) {
+
+    /** Builds freq counter of str of letters */
 
     function _getFreqs(letters) {
         const charFreqs = {};
