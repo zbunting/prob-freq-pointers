@@ -18,6 +18,10 @@
  * Time Complexity: O(n)
  */
 
+//TODO: say what happens in your docString, if there is an unequal number
+//of keys or values
+//TODO: 28 - 31 could be written as a ternary
+
 function twoArrayObject(keys, vals) {
     const object = {};
 
